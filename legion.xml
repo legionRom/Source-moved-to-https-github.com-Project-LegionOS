@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- LegionOS remote -->
+  <remote name="legion"
+          fetch="https://github.com/Legionrom"
+          revision="refs/heads/pie"
+          sync-j="8" />
+
+<remote name="los"
+          fetch="https://github.com/LineageOS"
+          revision="refs/heads/lineage-16.0"
+          sync-j="8" />
+
+
+  <remote name="github"
+          fetch="https://github.com/" />
+		   
+  <!-- Removed projects -->	   
+  <include name="remove.xml" />
+
+  <!-- Imported projects -->
+  <include name="legion/build.xml" />
+  <include name="legion/external.xml" />
+  <include name="legion/frameworks.xml" />
+  <include name="legion/hals.xml" />
+  <include name="legion/packages.xml" />
+  <include name="legion/prebuilts.xml" />
+  <include name="legion/system.xml" />
+  <include name="legion/vendors.xml" />
+
+</manifest>
