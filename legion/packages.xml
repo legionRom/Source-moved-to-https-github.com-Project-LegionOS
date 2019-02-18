@@ -26,5 +26,5 @@
     <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="legion" />
     <project path="packages/apps/Phonograph" name="platform_packages_apps_Phonograph" remote="legion" />
     <project path="packages/apps/WeatherClient" name="platform_packages_apps_WeatherClient" remote="legion" />
-    <project path="packages/apps/Updates" name="platform_packages_apps_Updates" remote="legion" />
+
 </manifest>
