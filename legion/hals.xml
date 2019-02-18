@@ -1,50 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8998" />
-  <!--<project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-845" />-->
-  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-16.0-caf" />
-  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8998" />
-  <!--<project path="hardware/qcom/display-caf/sdm845" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-845" />-->
-  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
-  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8998" />
-  <!--<project path="hardware/qcom/media-caf/sdm845" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-845" />-->
-  <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-16.0-caf" />
-  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="qcom,pdk-qcom" revision="lineage-16.0-caf" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
-  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" />
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
-  <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk-qcom" />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" />
-  <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" groups="pdk" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
- 
-</manifest>
+
+  <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="legion" />
+  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="legion" />
+  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="legion" />
+  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="legion" />
+  <project path="hardware/qcom/thermal" name="platform_hardware_qcom_thermal" remote="legion" />
+  <project path="hardware/qcom/vr" name="platform_hardware_qcom_vr" remote="legion" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="pie-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="pie-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="legion" revision="pie-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="legion" revision="pie-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" groups="qcom" remote="legion" revision="pie-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" groups="qcom" remote="legion" revision="pie-caf-8998" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="legion" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt-caf" remote="legion" revision="pie" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="legion" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="legion" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" remote="legion" revision="pie" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="legion" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="legion" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="legion" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="legion" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="legion" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" remote="legion" revision="pie" />  
+
+  </manifest>

@@ -7,12 +7,6 @@
           revision="refs/heads/pie"
           sync-j="8" />
 
-<remote name="los"
-          fetch="https://github.com/LineageOS"
-          revision="refs/heads/lineage-16.0"
-          sync-j="8" />
-
-
   <remote name="github"
           fetch="https://github.com/" />
 		   
