@@ -26,6 +26,6 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="legion" />
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="legion" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="legion" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril" remote="legion" revision="pie" />  
+  <project path="hardware/ril-caf" name="platform_hardware_ril-caf" remote="legion" revision="pie" />  
 
   </manifest>
