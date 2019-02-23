@@ -3,6 +3,7 @@
 
     <project path="frameworks/av" name="platform_frameworks_av" remote="legion" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="legion" />
+    <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="legion" />
     <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="legion" />
     <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="legion" />
     <project path="frameworks/native" name="platform_frameworks_native" remote="legion" />
