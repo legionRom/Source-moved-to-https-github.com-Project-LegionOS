@@ -15,6 +15,7 @@
 
   <!-- Imported projects -->
   <include name="legion/build.xml" />
+  <include name="legion/device.xml" />
   <include name="legion/external.xml" />
   <include name="legion/frameworks.xml" />
   <include name="legion/hals.xml" />
