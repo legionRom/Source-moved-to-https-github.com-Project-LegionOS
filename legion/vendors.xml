@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project path="vendor/legion" name="platform_vendor_legion" remote="legion" />
+    <project path="vendor/legion" name="platform_vendor_legion" remote="legion" branch="pie-t" />
     <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="legion" />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="legion" />
     <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="legion" />
