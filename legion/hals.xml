@@ -2,6 +2,8 @@
 <manifest>
 
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="legion" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="lineage" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
   <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="legion" />
   <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="legion" />
   <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="legion" />
