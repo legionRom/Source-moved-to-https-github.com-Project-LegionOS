@@ -8,6 +8,7 @@
     <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="legion" />
     <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="legion" />
     <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="legion" />
+    <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="legion" />
     <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="legion" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="legion" />
     <project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="legion" />
