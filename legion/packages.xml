@@ -6,6 +6,7 @@
     <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="legion" />
     <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="legion" />
     <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="legion" />
+    <project path="packages/apps/EmergencyInfo" name="platform_packages_apps_EmergencyInfo" remote="legion" />
     <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="legion" />
     <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="legion" />
     <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="legion" />
