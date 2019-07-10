@@ -41,7 +41,7 @@ $ mka bacon legion
  ===============
 
  * [**Rajkale99**](https://t.me/rajkale99) - Founder/Lead Developer
- * [**Shreehari**](https://t.me/cult_of_kosmos) - Maintainer Manager aka Web Designer
+ * [**Shreehari**](https://t.me/cult_of_kosmos) - Maintainer Manager/Web Designer
 ---------------------------------------------------------------------------------------
  Credits:
  =======
