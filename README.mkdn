@@ -37,7 +37,8 @@ $ mka bacon legion
  * [**Rajkale99**](https://t.me/rajkale99)
  * [**Shreehari**](https://t.me/cult_of_kosmos)
 
-#TeamLegionOS
+ #TeamLegionOS
+ ===============
 
  * [**Rajkale99**](https://t.me/rajkale99) - Founder/Lead Developer
  * [**Shreehari**](https://t.me/cult_of_kosmos) - Maintainer Manager aka Web Designer
