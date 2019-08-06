@@ -6,6 +6,7 @@
     <project path="system/extras" name="platform_system_extras" remote="legion" />
     <project path="system/qcom" name="platform_system_qcom" remote="legion" />
     <project path="system/sepolicy" name="platform_system_sepolicy" remote="legion" />
+    <project path="system/libhidl" name="platform_system_libhidl" remote="legion" />
     <project path="system/vold" name="platform_system_vold" remote="legion" />
     <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" remote="legion" />
     <project path="system/update_engine" name="platform_system_update_engine" remote="legion" />
