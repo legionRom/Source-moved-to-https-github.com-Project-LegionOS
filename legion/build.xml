@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project path="build/make" name="platform_build_make" remote="legion">
+    <project path="build/make" name="platform_build_make" remote="legion" revision="q" >
         <copyfile src="core/root.mk" dest="Makefile" />
-        <linkfile src="ClegionSpec.mk" dest="build/ClegionSpec.mk" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
         <linkfile src="core" dest="build/core" />
         <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-  
-    <project path="bionic" name="platform_bionic" remote="legion" />
-    <project path="bootable/recovery" name="platform_bootable_recovery" remote="legion"/>
-    <project path="build/soong" name="platform_build_soong" remote="legion">
+    
+    <project path="build/soong" name="platform_build_soong" remote="legion" revision="q" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="art" name="platform_art" remote="legion" />
-  
+    
+    <project path="bionic" name="platform_bionic" remote="legion" revision="q" />
+    <project path="bootable/recovery" name="platform_bootable_recovery" remote="legion" revision="q" />
 </manifest>

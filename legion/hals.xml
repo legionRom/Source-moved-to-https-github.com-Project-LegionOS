@@ -3,31 +3,28 @@
 
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="legion" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="lineage" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
   <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="legion" />
-  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" remote="legion" />
-  <project path="hardware/qcom/power" name="platform_hardware_qcom_power" remote="legion" />
-  <project path="hardware/qcom/thermal" name="platform_hardware_qcom_thermal" remote="legion" />
-  <project path="hardware/qcom/vr" name="platform_hardware_qcom_vr" remote="legion" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="pie-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="pie-caf-8998" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="pie-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8996" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="legion" revision="pie-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="legion" revision="pie-caf-8998" />
-  <project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="legion" revision="pie-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8996" name="platform_hardware_qcom_media" groups="qcom" remote="legion" revision="pie-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" groups="qcom" remote="legion" revision="pie-caf-8998" />
-  <project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media" groups="qcom" remote="legion" revision="pie-caf-8952" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="legion" revision="q" />
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="legion" revision="q" />
+  <project path="hardware/qcom-caf//msm8996/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="q-caf-8996" />
+  <!--project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="q-caf-8998" />-->
+  <!--project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="q-caf-8952" />-->
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="legion" revision="q" /> 	
+  <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="legion" revision="q-caf-8996" />
+  <!--project path="hardware/qcom/display-caf/msm8998" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="legion" revision="q-caf-8998" />-->
+  <!--project path="hardware/qcom/display-caf/msm8952" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="legion" revision="q-caf-8952" />--> 
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="legion" revision="q" />
+  <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom_media" groups="qcom" remote="legion" revision="q-caf-8996" />
+  <!--project path="hardware/qcom/media-caf/msm8998" name="platform_hardware_qcom_media" groups="qcom" remote="legion" revision="q-caf-8998" />-->
+  <!--project path="hardware/qcom/media-caf/msm8952" name="platform_hardware_qcom_media" groups="qcom" remote="legion" revision="q-caf-8952" />-->
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" remote="legion" />
-  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt-caf" remote="legion" revision="pie" />
+  <project path="hardware/qcom-caf/bt" name="platform_hardware_qcom_bt-caf" remote="legion" revision="q" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" remote="legion" />
   <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="legion" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan-caf" remote="legion" revision="pie" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="legion" />
+  <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan-caf" remote="legion" revision="q" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="legion" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="legion" />
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="legion" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="legion" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril-caf" remote="legion" revision="pie" />  
-
+  
   </manifest>

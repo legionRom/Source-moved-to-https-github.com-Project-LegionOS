@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project path="device/legion/sepolicy" name="platform_device_legion_sepolicy" remote="legion" />  
-<project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="legion" />
+<project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="legion" revision="q" />
 
 </manifest>

@@ -1,32 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="legion" />
-    <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="legion" />
-    <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="legion" />
-    <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="legion" />
-    <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="legion" />
-    <project path="packages/apps/EmergencyInfo" name="platform_packages_apps_EmergencyInfo" remote="legion" />
-    <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="legion" />
-    <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="legion" />
-    <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="legion" />
-    <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="legion" />
-    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="legion" />
-    <project path="packages/apps/SmartNav" name="platform_packages_apps_SmartNav" remote="legion" />
-    <project path="packages/apps/SmartNavSettings" name="platform_packages_apps_SmartNavSettings" remote="legion" />
-    <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="legion" />
-    <project path="packages/apps/Legion" name="platform_packages_apps_Legion" remote="legion" />
-    <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="legion" />	
-    <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="legion" />	
-    <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="legion" />
-    <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="legion" />
-    <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" remote="legion" />
-    <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="legion" />
-    <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="legion" />
-    <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="legion" />
-    <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="legion" />	
-    <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="legion" />
-    <project path="packages/apps/Phonograph" name="platform_packages_apps_Phonograph" remote="legion" />
-    <project path="packages/apps/WeatherClient" name="platform_packages_apps_WeatherClient" remote="legion" />
-    <project path="packages/apps/Updates" name="platform_packages_apps_Updates" remote="legion" />
+    <project path="packages/apps/Legion" name="platform_packages_apps_Legion" remote="legion" revision="q" />
+    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="legion" revision="q" />
+    <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="legion" revision="q" />
+    <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" remote="legion" revision="q" />
+    <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="legion" revision="q" />
+    <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="legion" revision="q" />
+    <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="legion" revision="q" />
+    <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="legion" revision="q" />
+    <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="legion" revision="q" />
+    <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="legion" revision="q" />
+
 </manifest>

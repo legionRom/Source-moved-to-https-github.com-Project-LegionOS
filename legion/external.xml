@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="legion" />
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="legion" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="legion" />
-  <project path="external/exfat" name="platform_external_exfat" remote="legion" />
-  <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="legion" />
-  <project path="external/libphonenumber" name="platform_external_libphonenumber" remote="legion" />
-  <project path="external/perfetto" name="platform_external_perfetto" remote="legion" />
-  <project path="external/selinux" name="platform_external_selinux" remote="legion" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" remote="legion" />
-  <project path="external/json-c" name="platform_external_json-c" remote="legion" />
-  <project path="external/skia" name="platform_external_skia" remote="legion" />
-  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="legion" />
-  
+<project path="external/tinycompress" name="platform_external_tinycompress" remote="legion" revision="q" />
+    <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="legion" revision="q" />
+    <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="legion" revision="q" />
+    <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="legion" revision="q" />
+
 </manifest>
