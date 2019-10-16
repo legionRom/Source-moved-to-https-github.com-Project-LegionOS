@@ -7,7 +7,7 @@ To get started with manifest/legionos, you'll need to get familiar with [Repo](h
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/Legionrom/platform_manifest.git -b pie
+repo init -u https://github.com/Legionrom/platform_manifest.git -b q
 
 ```
 
@@ -35,30 +35,18 @@ $ brunch $device
 
  If u like to maintain LegionOS for ur device contact
  * [**Rajkale99**](https://t.me/rajkale99)
- * [**Shreehari**](https://t.me/cult_of_kosmos)
+ 
 
  #TeamLegionOS
  ===============
 
  * [**Rajkale99**](https://t.me/rajkale99) - Founder/Lead Developer
- * [**Shreehari**](https://t.me/cult_of_kosmos) - Maintainer Manager/Web Designer
+  
 ---------------------------------------------------------------------------------------
  Credits:
  =======
 
  * [**LineageOS**](https://github.com/LineageOS)
- * [**AOSiP**](https://github.com/AOSiP)
- * [**DotOS**](https://github.com/DotOS)
- * [**ArrowOS**](https://github.com/ArrowOS)
- * [**PixelExperience**](https://github.com/PixelExperience)
- * [**DirtyUnicorns**](https://github.com/dirtyunicorns)
- * [**AospExtended**](https://github.com/AospExtended)
- * [**CypherOS**](https://github.com/CypherOS)
- * [**Xtended**](https://github.com/Xtended-Pie)
- * [**LeanOS**](https://github.com/LeanOS-Project)
- * [**BeastRoms**](https://github.com/BeastRoms)
- * [**Evolution-X**](https://github.com/Evolution-X)
- * [**ColtOS**](https://github.com/Colt-Enigma)
+ 
 
 ---------------------------------------------------------------------------------------
-

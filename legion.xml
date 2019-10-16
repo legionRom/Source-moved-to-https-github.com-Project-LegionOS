@@ -4,13 +4,13 @@
   <!-- LegionOS remote -->
   <remote name="legion"
           fetch="https://github.com/Legionrom"
-          revision="refs/heads/pie"
+          revision="refs/heads/q"
           sync-j="8" />
   
   <!--LegionOS Devices -->
   <remote name="legionos-devices"
           fetch="https://github.com/LegionOS-Devices"
-          revision="refs/heads/pie"
+          revision="refs/heads/q"
           sync-j="8" />
 
   <remote name="github"
