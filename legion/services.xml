@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="legion" revision="q" />
+    <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="legion" revision="q" />
+   
+</manifest>
