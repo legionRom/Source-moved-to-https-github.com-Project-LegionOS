@@ -27,6 +27,7 @@
   <include name="legion/hals.xml" />
   <include name="legion/packages.xml" />
   <include name="legion/prebuilts.xml" />
+  <include name="legion/services.xml" />
   <include name="legion/system.xml" />
   <include name="legion/vendors.xml" />
 
