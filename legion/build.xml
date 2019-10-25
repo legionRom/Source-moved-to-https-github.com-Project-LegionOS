@@ -17,5 +17,6 @@
     </project>
     
     <project path="bionic" name="platform_bionic" remote="legion" revision="q" />
+    <project path="build/blueprint" name="platform_build_blueprint" remote="legion" revision="q" />
     <project path="bootable/recovery" name="platform_bootable_recovery" remote="legion" revision="q" />
 </manifest>

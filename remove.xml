@@ -54,6 +54,7 @@
 
   <!-- General repos -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
@@ -62,6 +63,7 @@
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Hardware repos -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -79,6 +81,7 @@
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />

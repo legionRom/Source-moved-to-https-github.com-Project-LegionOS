@@ -25,8 +25,8 @@ From root directory of project, perform following commands in terminal
 
 ```bash
 $ . build/envsetup.sh
-$ breakfast $device
-$ brunch $device
+$ lunch
+$ make legion
 ```
 
 

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project path="external/tinycompress" name="platform_external_tinycompress" remote="legion" revision="q" />
+    <project path="external/tinycompress" name="platform_external_tinycompress" remote="legion" revision="q" />
     <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" remote="legion" revision="q" />
     <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" remote="legion" revision="q" />
     <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="legion" revision="q" />
+    <project path="external/exfat" name="platform_external_exfat" remote="legion" revision="q" />
+    <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="legion" revision="q" />
+    <project path="external/json-c" name="platform_external_json-c" remote="legion" revision="q" />
 
 </manifest>
