@@ -7,7 +7,7 @@
   <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="legion" revision="q" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="legion" revision="q" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="legion" revision="q" />
-  <project path="hardware/qcom-caf//msm8996/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="q-caf-8996" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="q-caf-8996" />
   <!--project path="hardware/qcom/audio-caf/msm8998" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="q-caf-8998" />-->
   <!--project path="hardware/qcom/audio-caf/msm8952" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="legion" revision="q-caf-8952" />-->
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="legion" revision="q" /> 	
