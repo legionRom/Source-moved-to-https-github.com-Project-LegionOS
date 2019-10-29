@@ -2,5 +2,7 @@
 <manifest>
 
 <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="legion" revision="q" />
+<project path="device/legion/sepolicy" name="device_legion_sepolicy" remote="legion" revison="q" />
+<project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="legion" revision="q" />
 
 </manifest>
