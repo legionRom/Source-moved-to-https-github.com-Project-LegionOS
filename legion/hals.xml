@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="art" name="platform_art" remote="legion" revision="q" />
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" remote="legion" revision="q" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform_hardware_qcom_data_ipacfg-mgr" remote="legion" />
   <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" remote="legion" revision="q" />
