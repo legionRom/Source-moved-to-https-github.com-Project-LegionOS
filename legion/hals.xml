@@ -30,5 +30,8 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="legion" revision="q"/>
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="legion" revision="q" />
   <project path="hardware/ril" name="platform_hardware_ril" remote="legion" revision="q"/>
-  
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="legion" revision="q-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,qcom_audio,pdk-qcom" remote="legion" revision="q-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,qcom_audio,pdk-qcom" remote="legion" revision="q-caf-msm8998" />
+   
   </manifest>
