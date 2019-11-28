@@ -9,4 +9,5 @@
     <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="legion" revision="q" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="legion" revision="q" />
     <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="legion" revision="q" />
+    <project path="vendor/qcom/opensource/libfmjni" name="platform_vendor_qcom_opensource_libfmjni remote="legion" revision="q" />
 </manifest>
