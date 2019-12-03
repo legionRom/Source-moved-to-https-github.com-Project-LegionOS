@@ -84,6 +84,7 @@
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/update_engine" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
