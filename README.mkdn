@@ -41,12 +41,12 @@ $ make legion
  ===============
 
  * [**Rajkale99**](https://t.me/rajkale99) - Founder/Lead Developer
-  
+ 
 ---------------------------------------------------------------------------------------
  Credits:
  =======
 
  * [**LineageOS**](https://github.com/LineageOS)
- 
+ * [**ROS**](https://github.com/RevengeOS)
 
 ---------------------------------------------------------------------------------------
