@@ -4,5 +4,5 @@
     <project path="system/core" name="platform_system_core" remote="legion" revision="q" />
     <project path="system/vold" name="platform_system_vold" remote="legion" revision="q" />   
     <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" remote="legion" revision="q" /> 
-	
+    <project path="system/update_engine" name="platform_system_update_engine" remote="legion" revision="q" />
 </manifest>
