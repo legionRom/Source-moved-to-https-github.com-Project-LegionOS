@@ -16,4 +16,5 @@
     <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="legion" revision="q" />
     <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="legion" revision="q" />
     <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="legion" revision="q" />
+     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="legion" revision="q" />
 </manifest>
