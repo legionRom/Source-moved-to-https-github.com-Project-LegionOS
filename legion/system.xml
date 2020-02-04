@@ -6,5 +6,6 @@
     <project path="system/qcom" name="platform_system_qcom" remote="legion" revision="q" />	
     <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" remote="legion" revision="q" /> 
     <project path="system/update_engine" name="platform_system_update_engine" remote="legion" revision="q" />
-    <project path="system/sepolicy" name="platform_system_sepolicy" remote="legion" revision="q" />	
+    <project path="system/sepolicy" name="platform_system_sepolicy" remote="legion" revision="q" />
+    <project path="system/bt" name="platform_system_bt" remote="legion" revision="q" />		
 </manifest>
