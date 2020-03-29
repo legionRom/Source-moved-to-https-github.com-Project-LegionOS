@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project path="vendor/legion" name="platform_vendor_legion" remote="legion" revision="q" />
+    <project path="vendor/legion" name="platform_vendor_legion" remote="legion" revision="q-new" />
     <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="legion" revision="q" />
     <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="legion" revision="q" />
     <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="legion" revision="q" />
