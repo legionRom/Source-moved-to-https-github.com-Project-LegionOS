@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project path="packages/apps/Legion" name="platform_packages_apps_Legion" remote="legion" revision="q" />
+    <project path="packages/apps/Legion" name="platform_packages_apps_Legion" remote="legion" revision="q-new" />
     <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" remote="legion" revision="q" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="legion" revision="q" />
     <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" remote="legion" revision="q" />
