@@ -9,4 +9,5 @@
     <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="legion" revision="q" />
     <project path="external/json-c" name="platform_external_json-c" remote="legion" revision="q" />
     <project path="external/selinux" name="platform_external_selinux" remote="legion" revision="q" />
+    <project path="external/google" name="platform_external_google" remote="legion" revision="q" />
 </manifest>
