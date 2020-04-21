@@ -33,6 +33,9 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom_audio" remote="legion" revision="q-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom_media" remote="legion" revision="q-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom_display" remote="legion" revision="q-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="los" revision="lineage-17.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="los" revision="lineage-17.1-caf-sdm845" />
   <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" remote="legion" revision="q" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -44,14 +47,10 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-17.1-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="los" revision="lineage-17.1-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="los" revision="lineage-17.1-caf-sdm845" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
-  
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" /> 
 </project>
    
   </manifest>
