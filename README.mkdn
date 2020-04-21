@@ -48,5 +48,6 @@ $ make legion
 
  * [**LineageOS**](https://github.com/LineageOS)
  * [**ROS**](https://github.com/RevengeOS)
+ * [**ManyMore from where cherry-picked from**](github.com)
 
 ---------------------------------------------------------------------------------------
