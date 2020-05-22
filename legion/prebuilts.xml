@@ -12,7 +12,7 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/r8" name="platform_prebuilts_r8" remote="legion" revision="q" /> 
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-6032204" name="prebuilts_clang_host_linux-x86_clang-6032204" remote="legion" />
   <project path="prebuilts/clang/host/linux-x86/clang-6170260" name="platform_prebuilts_clang_host_linux-x86_clang-6170260" remote="legion" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-6194136" name="platform_prebuilts_clang_host_linux-x86_clang-6194136" remote="legion" clone-depth="1" />
