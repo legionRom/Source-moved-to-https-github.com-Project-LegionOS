@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- General repos -->
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/libcore" />
+  <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/test/mts" />
+  <remove-project name="platform/test/vti/alert" />
+  <remove-project name="platform/tools/ndkports" /> 
+  <remove-project name="platform/development" />
+
+  <!-- Build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/build/soong" />
+
+  <!--Development-->
+  <remove-project name="platform/developers/build" />
+  <remove-project name="platform/developers/demos" />
+  <remove-project name="platform/developers/samples/android" />
+
   <!-- Device repos -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -16,16 +37,19 @@
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
   <remove-project name="device/generic/opengl-transport" />
-  <remove-project name="device/generic/qemu" groups="pdk" />
-  <remove-project name="device/generic/trusty" groups="pdk" />
-  <remove-project name="device/generic/uml" groups="device,pdk" />
-  <remove-project name="device/generic/x86" groups="pdk" />
-  <remove-project name="device/generic/x86_64" groups="pdk" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/trusty" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/coral" />
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/coral-sepolicy" />
   <remove-project name="device/google/crosshatch" />
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
@@ -52,53 +76,61 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
-  <!-- General repos -->
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/blueprint" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/bootable/recovery" />
-
   <!-- External repos -->
+  <remove-project name="platform/external/ARMComputeLibrary" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/ppp" />
+  <remove-project name="platform/external/python/asn1crypto" />
+  <remove-project name="platform/external/python/cffi" />
+  <remove-project name="platform/external/python/cryptography" />
+  <remove-project name="platform/external/python/pycparser" />
+  <remove-project name="platform/external/python/pyopenssl" />
+  <remove-project name="platform/external/rapidjson" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
-
-  <!-- Hardware repos -->
-  <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/bootctrl" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/qcom/keymaster" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/nxp/nfc" />
-  <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/hardware/qcom/power" />
-  <remove-project name="platform/art" />
-
-  <!-- System repos -->
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/external/toybox" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
-  <!-- Service repos -->
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/services/Telecomm" />
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8998" />
+  <remove-project name="platform/hardware/qcom/msm8x09" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" /> 
+  <remove-project name="platform/hardware/ril" />
 
-  <!-- Package repos -->
+<!-- Package repos -->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Messaging" />
@@ -109,4 +141,35 @@
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/maven_repo/google-play-service-client-libraries-3p" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="platform/prebuilts/r8" />
+
+  <!-- Service repos -->
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
+
 </manifest>
