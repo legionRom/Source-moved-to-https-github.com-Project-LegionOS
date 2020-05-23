@@ -19,6 +19,7 @@
     <project path="bionic" name="platform_bionic" remote="legion" revision="q" />
     <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
     <project path="bootable/recovery" name="platform_bootable_recovery" remote="legion" revision="q" />
+    <project path="libcore" name="platform_libcore"  remote="legion" />
 
     <project path="art" name="android_art" remote="lineage" />
     <project path="development" name="android_development" remote="lineage" />
