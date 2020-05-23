@@ -10,11 +10,11 @@
     <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="legion" revision="q" />
     <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="legion" revision="q" />
     <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="legion" revision="q" />
-    <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="legion" revision="q" />
     <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="legion" revision="q" />
     <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="legion" revision="q" />
-    <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="legion" revision="q" />
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+    <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
     <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="legion" revision="q" />
     <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="legion" revision="q" />
-     <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="legion" revision="q" />
+    <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="legion" revision="q" />
 </manifest>
