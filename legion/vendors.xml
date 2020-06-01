@@ -2,7 +2,7 @@
 <manifest>
 
   <project path="vendor/legion" name="platform_vendor_legion" remote="legion" revision="q-new" />
-  <project path="vendor/gapps" name="platform_vendor_gapps" remote="leg-lab" revision="q" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="leg-lab" revision="10" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
