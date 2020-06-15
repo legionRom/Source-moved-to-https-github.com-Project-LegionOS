@@ -3,6 +3,7 @@
 
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="legion" revision="q" />
   <project path="external/google" name="platform_external_google" remote="legion" revision="q" />
+  <project path="external/asus/stitchimage" name="platform_external_asus_StitchImage" remote="legion" revision="q" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
